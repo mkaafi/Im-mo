@@ -39,7 +39,10 @@
   color: #cccccc;
   font-weight: 300;
 }
-
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   color: #777777;
   font-family: 'Roboto', sans-serif;
@@ -917,7 +920,7 @@ td, th {
     position: absolute;
     top: 40px;
     right: 0;
-    background: #4a4fad;
+    background: #262626;
     padding: 30px 20px;
   }
   .default-header .main-menu a {
@@ -925,10 +928,10 @@ td, th {
   }
   .default-header .mobile-btn {
     display: block !important;
-    font-size: 36px !important;
-    position: absolute;
-    top: 0;
-    right: 0;
+    font-size: 30px !important;
+    position: fixed;
+    top: 10px;
+    left: 10px;
   }
 }
 
@@ -966,9 +969,10 @@ td, th {
 .header-social a:hover {
   color: #00ff8c;
 }
-@media screen and all(min-width: 767px) {
+@media screen and all(max-width: 768px) {
   .header-social {
-    float: left;
+    position: relative;
+    right: 60px;
   }
 }
 
@@ -1006,7 +1010,8 @@ td, th {
 @media screen and (max-width: 768px) {
   .banner-content, .css-typing {
     font-size: 50%;
-  
+    position: relative;
+    bottom: 20px;
 
   }
 }
