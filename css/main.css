@@ -557,7 +557,7 @@ td, th {
 }
 
 .section-full {
-  padding: 80px 0;
+  padding: 100px 0;
 }
 
 .section-half {
@@ -888,7 +888,7 @@ td, th {
 .default-header nav .main-menu a {
   display: inline-block;
   color: rgba(255, 255, 255, 0.5);
-  margin: 0 20px;
+  margin: 0 18px;
   text-transform: uppercase;
   font-size: 16px;
 }
@@ -1294,8 +1294,10 @@ td, th {
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
+    height:100%;
     margin: auto;
     text-align: center;
+    border-radius: 10px;
 }
 
 .title {
@@ -1305,16 +1307,16 @@ td, th {
 
 button {
     border: none;
-    outline: 0;
     display: inline-block;
     padding: 8px;
-    margin-bottom: 0;
     color: white;
     background-color: #000;
     text-align: center;
     cursor: pointer;
     width: 100%;
     font-size: 18px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 a {
@@ -1323,9 +1325,28 @@ a {
     color: black;
 
 }
-
-button:hover a:hover {
+ a:hover {
     color: #00ff8c;
+}
+.floating-img {
+  width:30%;
+  height:30%;
+  position: absolute;
+    bottom: 0;
+    right: 30%;
+    font-size: 18px;
+    z-index: 1;
+}
+@media (max-width: 679px) {
+  .floating-img {
+    width:30%;
+    height:30%;
+    position: absolute;
+    bottom: 0;
+    margin-top: 20px;
+    font-size: 14px;
+   
+}
 }
 
 .studio-area:after {
