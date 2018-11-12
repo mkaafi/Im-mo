@@ -28,13 +28,9 @@ $(document).ready(function(){
         $("span", this).toggleClass("lnr-menu lnr-cross");
         $(".main-menu").addClass('mobile-menu');
     });
-     $(".main-menu li a").on('click', function(e){
-        e.preventDefault();
-        $(".mobile-menu").slideUp();
-        $(".mobile-btn span").toggleClass("lnr-menu lnr-cross");
-    });
+    
      // typing effect 
-     var str = 'Front-end Web Developer. Focused on Responsive user friendly Websites.';
+     var str = 'Front-end Web Developer. Focused on Responsive User Friendly Websites.';
 
 
     var spans = '<span>' + str.split('').join('</span><span>') + '</span>';
@@ -47,47 +43,7 @@ $(document).ready(function(){
         }, 100);
     });
 
-    // $(function(){
-    //     $('#Container').mixItUp();
-    // });
-    var mixer = mixitup('#filter-content');
-    $(".controls .filter").on('click', function(event){
-        $(".controls .filter").removeClass('active');
-        $(this).addClass('active');
-    });
-    // Add smooth scrolling to Menu links
-         $(".main-menu li a, .smooth").on('click', function(event) {
-                if (this.hash !== "") {
-                  event.preventDefault();
-                  var hash = this.hash;
-                  $('html, body').animate({
-                    scrollTop: $(hash).offset().top - (-10)
-                }, 600, function(){
-                 
-                    window.location.hash = hash;
-                });
-            } 
-        });
-
-    $('.active-testimonial-carousel').owlCarousel({
-        loop:true,
-        dot: true,
-        items: 3,
-        margin: 30,
-        autoplay:true,
-        autoplayTimeout:3000,
-        autoplayHoverPause:true,
-        animateOut: 'fadeOutLeft',
-        animateIn: 'fadeInRight',
-        responsive:{
-            0:{
-                items:1,
-            },
-            600:{
-                items:3,
-             }
-        }
-    })
+    
      // -------   Mail Send ajax
 
      $(document).ready(function() {

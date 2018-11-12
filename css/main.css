@@ -557,7 +557,7 @@ td, th {
 }
 
 .section-full {
-  padding: 20px 0;
+  padding: 80px 0;
 }
 
 .section-half {
@@ -931,7 +931,7 @@ td, th {
     font-size: 30px !important;
     position: fixed;
     top: 10px;
-    left: 10px;
+    left: 5px;
   }
 }
 
@@ -1290,6 +1290,43 @@ td, th {
   letter-spacing: 3;
   line-height: 2;
 }
+/*about me card */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    margin-bottom: 0;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+
+}
+
+button:hover a:hover {
+    color: #00ff8c;
+}
 
 .studio-area:after {
   position: absolute;
@@ -1559,3 +1596,4 @@ footer .footer-nav li a:hover {
 .footer-bottom .footer-text a:hover {
   color: #00ff8c;
 }
+
