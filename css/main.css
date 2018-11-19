@@ -476,15 +476,18 @@ td, th {
 /*about me card */
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width: 350px;
+    width: auto;
+    max-width: 320px;
     height:100%;
     margin-bottom: 0;
     text-align: center;
     border-radius: 10px;
 }
 
+
+
 .title {
-    color: grey;
+    color: #000;
     font-size: 18px;
 }
 
@@ -539,6 +542,19 @@ a {
     font-size: 14px;
    
 }
+}
+#myServices{
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+
+}
+#myServices .col-lg-4 {
+  font-size: 18px;
+  margin-top: 40px;
+}
+#myServices .icon {
+  font-size: 40px;
+  color: #000;
 }
 
 /*skill bar */
@@ -767,7 +783,6 @@ to {
   height:400px;
   overflow-y: scroll;
 }
-
 
 .cta-area {
   background: #3d4191;
