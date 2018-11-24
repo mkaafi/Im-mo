@@ -9,7 +9,7 @@
 		$to = 'kaafi011@gmail.com'; 
 		$subject = 'Message from Contact Demo ';
 		
-		$body = "From: $name\n E-Mail: $email\n Subject: $subject\n Message:\n $message";
+		$body = "From: $name\n E-Mail: $email\n Subject: $subject\n Message: $message";
 
 		// Check if name has been entered
 		if (!$_POST['name']) {
