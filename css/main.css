@@ -229,9 +229,8 @@ td, th {
 
 .primary-btn {
   line-height: 35px;
-  padding: 0 40px;
+  padding: 0 60px;
   border-radius: 20px;
-  margin: 0 auto;
   margin-left: 90px;
   background: transparent;
   border: 3px solid #00ff8c;
@@ -244,7 +243,32 @@ td, th {
   transition: all 0.3s ease 0s;
   cursor: pointer;
 }
-
+.footer-btn {
+  line-height: 35px;
+  padding: 0 70px;
+  font-size:20px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  background: transparent;
+  border: 3px solid #00ff8c;
+  color: #000;
+  display: flex;
+  justify-content: space-around;
+  font-weight: 600;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+.footer-btn:hover {
+   background: #00ff8c;
+  color: #111;
+  box-shadow: 0px 15px 25px 0px rgba(60, 64, 143, 0.2);
+}
+.footer-btn:focus{
+  outline: none;
+}
 .primary-btn:focus {
   outline: none;
 }
@@ -264,7 +288,7 @@ td, th {
 .primary-btn:hover {
   background: #00ff8c;
   color: #111;
-  box-shadow: 0px 10px 20px 0px rgba(60, 64, 143, 0.2);
+  box-shadow: 0px 15px 25px 0px rgba(60, 64, 143, 0.2);
 }
 
 .section-title {
@@ -315,7 +339,7 @@ td, th {
   align-items: center;
 }
 .main-menu {
-  margin-left:80px;
+  margin-left:90px;
 }
 
 @media (max-width: 767px) {
@@ -435,8 +459,7 @@ td, th {
   background: url(../img/ordinary_day.svg);
   background-color: rgb(230, 255, 230);    
   background-repeat: no-repeat;
-  background-size: cover;
-
+  background-size: auto 100%;
 }
 .banner-content {
   color:#fff !important;
@@ -450,21 +473,12 @@ td, th {
   background-size: contain;
 
 }
-  .css-typing {
-    font-size: 16px;
-    position: relative;
-    bottom: 20px;
+ .banner-content{
+  position: relative;
+  bottom:40px;
 
   }
-}
-
-
-
-.overlay-bg {
-  background: -moz-linear-gradient(left, rgb(255, 255, 128) 0%, rgb(0, 230, 126) 100%);
-  background: -webkit-linear-gradient(left, rgb(255, 255, 128) 0%, rgb(0, 230, 126) 100%);
-  background: linear-gradient(to left, rgb(255, 255, 128) 0%, rgb(0, 230, 126) 100%);
-  opacity: 0.2;
+ 
 }
 
 .css-typing {
@@ -477,8 +491,8 @@ td, th {
 /*about me card */
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width: auto;
-    max-width: 320px;
+    width: auto 100%;
+    max-width: 300px;
     height:100%;
     margin-bottom: 0;
     text-align: center;
@@ -801,8 +815,11 @@ to {
 }
 
 .cta-area {
-  background: #3d4191;
-  padding: 60px 0;
+  background: #000;
+  
+}
+#contact-btn {
+ align-items: center;
 }
 
 @media (max-width: 767px) {
@@ -812,7 +829,7 @@ to {
 }
 
 footer {
-  background: #222222;
+  background: #000;
 }
 
 footer .footer-nav {
@@ -834,6 +851,7 @@ footer .footer-nav li a:hover {
 }
 
 .footer-bottom {
+  margin-top: 30px;
   padding-top: 40px;
   border-top: 1px solid #eee;
 }
