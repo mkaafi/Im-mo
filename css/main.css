@@ -492,7 +492,8 @@ td, th {
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: auto 100%;
-    max-width: 300px;
+    max-width: 325px;
+    margin: 0 auto;
     height:100%;
     margin-bottom: 0;
     text-align: center;
