@@ -492,7 +492,7 @@ td, th {
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: auto 100%;
-    max-width: 325px;
+    max-width: 350px;
     margin: 0 auto;
     height:100%;
     margin-bottom: 0;
@@ -508,6 +508,7 @@ td, th {
 }
 
 button {
+  margin-bottom: 0;
     border: none;
     display: inline-block;
     padding: 8px;
@@ -519,6 +520,7 @@ button {
     font-size: 18px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+}
 }
 
 a {
@@ -830,7 +832,7 @@ to {
 }
 
 footer {
-  background: #000;
+  background: #001a0e;
 }
 
 footer .footer-nav {
