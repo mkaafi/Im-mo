@@ -178,7 +178,9 @@ td, th {
   clear: both;
 }
 
+.margin-top {
 
+}
 
 .text-white {
   color: #fff;
@@ -597,7 +599,7 @@ hr.style-four {
     width: 95%;
     height: auto;
     margin: 40px auto;
-    background-color: #fff;
+    background-color: rgb(230, 255, 230);
     //border: 1px solid #cdcdcd;
     padding: 10px;
     border-radius:20px;
@@ -832,7 +834,7 @@ to {
 }
 
 footer {
-  background: #001a0e;
+  background: #1a1a1a;
 }
 
 footer .footer-nav {
