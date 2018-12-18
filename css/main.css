@@ -602,232 +602,7 @@ hr.style-four {
   color: #000;
 }
 
-/*skill bar */
-#SkillBox {
-    font-size: 20px;
-    font-family: 'Indie Flower', cursive;
-    width: 95%;
-    height: auto;
-    margin: 40px auto;
-    background-color: rgb(230, 255, 230);
-    //border: 1px solid #cdcdcd;
-    padding: 10px;
-    border-radius:20px;
-    -o-border-radius:20px;
-    -webkit-border-radius:20px;
-    -ms-border-radius:20px;
-    -moz-border-radius:20px;  
-}
-#SkillBox img {
-    width: 20%;
-    height: 10%;
-    margin: auto 35%;
-    padding: 10px;
-}
-.SkillBar {
-    width: 90%;
-    height: 50px;
-    position: relative;
-    background: rgba(17, 17, 17, .3);
-    margin: 20px auto;
-}
-#Skill-HTML {
-    width: 90%;
-    animation: Animate-HTML 4s;
-    -webkit-animation: Animate-HTML 4s;
-    -moz-animation: Animate-HTML 4s;
-    -o-animation: Animate-HTML 4s;
-    height: 50px;
-    position: absolute;
-    background-color: #ea8564;
-}
-@keyframes Animate-HTML {
-    from {
-    width: 10px;
-}
-to {
-    width: 90%}
-}@-webkit-keyframes Animate-HTML {
-    from {
-    width: 10px;
-}
-to {
-    width: 90%}
-}@-moz-keyframes Animate-HTML {
-    from {
-    width: 10px;
-}
-to {
-    width: 100%}
-}@-o-keyframes Animate-HTML {
-    from {
-    width: 10px;
-}
-to {
-    width: 100%}
-}#Skill-CSS {
-    animation: Animate-CSS 5s;
-    -webkit-animation: Animate-CSS 5s;
-    -moz-animation: Animate-CSS 5s;
-    -o-animation: Animate-CSS 5s;
-    width: 80%;
-    height: 50px;
-    position: absolute;
-    background-color: #55a69f;
-}
-@keyframes Animate-CSS {
-    from {
-    width: 10px;
-}
-to {
-    width: 70%}
-}@-webkit-keyframes Animate-CSS {
-    from {
-    width: 10px;
-}
-to {
-    width: 70%}
-}@-moz-keyframes Animate-CSS {
-    from {
-    width: 10px;
-}
-to {
-    width: 70%}
-}@-o-keyframes Animate-CSS {
-    from {
-    width: 10px;
-}
-to {
-    width: 70%}
-}#Skill-jQuery {
-    animation: Animate-jQuery 5s;
-    -webkit-animation: Animate-jQuery 5s;
-    -moz-animation: Animate-jQuery 5s;
-    -o-animation: Animate-jQuery 5s;
-    width: 50%;
-    height: 50px;
-    position: absolute;
-    background-color: #99856d;
-}
-@keyframes Animate-jQuery {
-    from {
-    width: 10px;
-}
-to {
-    width: 50%}
-}@-webkit-keyframes Animate-jQuery {
-    from {
-    width: 10px;
-}
-to {
-    width: 50%}
-}@-moz-keyframes Animate-jQuery {
-    from {
-    width: 10px;
-}
-to {
-    width: 50%}
-}@-o-keyframes Animate-jQuery {
-    from {
-    width: 10px;
-}
-to {
-    width: 50%}
-}#Skill-JS {
-    animation: Animate-JS 4s;
-    -webkit-animation: Animate-JS 4s;
-    -moz-animation: Animate-JS 4s;
-    -o-animation: Animate-JS 4s;
-    width: 40%;
-    height: 50px;
-    position: absolute;
-    background-color: #c44e45;
-}
-@keyframes Animate-JS {
-    from {
-    width: 10px;
-}
-to {
-    width: 40%}
-}@-webkit-keyframes Animate-JS {
-    from {
-    width: 10px;
-}
-to {
-    width: 40%}
-}@-moz-keyframes Animate-JS {
-    from {
-    width: 10px;
-}
-to {
-    width: 40%}
-}@-o-keyframes Animate-JS {
-    from {
-    width: 10px;
-}
-to {
-    width: 65%}
-}#Skill-python {
-    animation: Animate-python 4s;
-    -webkit-animation: Animate-python 4s;
-    -moz-animation: Animate-python 4s;
-    -o-animation: Animate-python 4s;
-    width: 40%;
-    height: 50px;
-    position: absolute;
-    background-color: #5aa669;
-}
-@keyframes Animate-python {
-    from {
-    width: 10px;
-}
-to {
-    width: 40%}
-}@-webkit-keyframes Animate-python {
-    from {
-    width: 10px;
-}
-to {
-    width: 40%}
-}@-moz-keyframes Animate-python {
-    from {
-    width: 10px;
-}
-to {
-    width: 40%}
-}@-o-keyframes Animate-python {
-    from {
-    width: 10px;
-}
-to {
-    width: 40%}
 
-}.Skill-Area {
-    z-index: 1;
-    float: left;
-    //position: absolute;
-    margin-top: 15px;
-    margin-left: 10px;
-    text-shadow: none;
-    color: #fff;
-    //font-family: Lato-Regular, sans-serif;
-    font-size: 14px;
-}
-.PercentText {
-    z-index: 3;
-    position: relative;
-    padding-right: 8px;
-    margin-top: 15px;
-    float: right;
-    text-shadow: none;
-    color: #fff;
-    //font-family: Lato-Regular, sans-serif;
-    font-size: 14px;
-}
-.scrollable {
-  height:400px;
-  overflow-y: scroll;
-}
 
 .cta-area {
   background: #000;
@@ -841,6 +616,129 @@ to {
   .cta-area .primary-btn {
     margin-top: 10px;
   }
+}
+@media only screen and (min-width : 768px) {
+  .is-table-row {
+    display: table;
+  }
+  .is-table-row [class*="col-"] {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+  }
+}
+
+.is-table-row .box {
+  background: none;
+  position: static;
+}
+.is-table-row [class*="col-"] {
+  background: #fff;
+}
+
+/*hover effect*/
+:root{
+    --color_1: #fff;
+    --color_2: #00ff8c;
+}
+.box{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+.box:before{
+    content: '';
+    background-color: rgba(255,255,255,0.7);
+    height: 75%;
+    width: 75%;
+    opacity: 0;
+    transform: translateX(-50%) translateY(-50%) scale(0);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    transition: all 0.3s ease 0.1s;
+}
+.box:hover:before{
+    opacity: 1;
+    transform: translateX(-50%) translateY(-50%) scale(1);
+}
+.box img{
+    width: 100%;
+    height: auto;
+    transition: all 0.3s ease 0s;
+}
+.box:hover img{ filter: hue-rotate(200deg); }
+.box .box-content{
+    color: var(--color_1);
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transform: rotate(90deg);
+    transform-origin: 100% 0%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    transition:all 0.3s;
+}
+.box:hover .box-content{
+    background-color: rgba(0, 0, 0, 0.01);
+    transform-origin: 0 100%;
+    transform: rotate(0);
+}
+.box .content{
+    width: 65%;
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+.box .title{
+    color: var(--color_2);
+    font-size: 22px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px #fff;
+    margin: 0;
+}
+.box .post{
+    color: #000;
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    display: block;
+}
+.box .icon{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.box .icon li{ display: inline-block; }
+.box .icon li a{
+    color: var(--color_1);
+    background-color: var(--color_2);
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50% 0 50% 50%;
+    display: block;
+    transition: all 0.3s ease 0s;
+}
+.box .icon li a:hover{
+    color: var(--color_2);
+    background-color: var(--color_1);
+    box-shadow: 0 0 5px #999 inset, 0 0 0 2px var(--color_2);
+}
+@media only screen and (max-width:990px){
+    .box{ margin-bottom: 30px; }
+}
+@media only screen and (max-width:479px){
+    .box .title{ font-size: 20px; }
 }
 
 footer {
