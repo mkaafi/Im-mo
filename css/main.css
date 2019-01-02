@@ -201,14 +201,7 @@ td, th {
   padding: 75px 0;
 }
 
-.overlay {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
 
-}
 
 .container.fullwidth {
   width: 100%;
@@ -358,9 +351,10 @@ td, th {
   font-size: 16px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   .default-header nav .main-menu a {
     margin: 0 5px;
+    color:#fff !important;
   }
 }
 
@@ -371,7 +365,7 @@ td, th {
 .default-header nav .mobile-btn {
   display: none;
   font-size: 36px;
-  color: rgb(13, 13, 13) ;
+  color: rgb(13, 13, 13);
 }
 
 @media (max-width: 767px) {
@@ -396,7 +390,7 @@ td, th {
     font-size: 30px !important;
     position: fixed;
     top: 10px;
-    left: 5px;
+    left: 10px;
   }
 }
 
@@ -433,7 +427,7 @@ td, th {
 .header-social a:hover {
   color: #00ff8c;
 }
-@media screen and all(max-width: 768px) {
+@media screen and all(max-width: 767px) {
   .header-social {
     position: relative;
     right: 60px;
